@@ -7,7 +7,7 @@ def test():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/uKYgfVs.jpg",
+                    image_url="https://storage.cloud.google.com/pig_house/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/%E7%B0%BD%E7%B4%84%E6%B5%81%E7%A8%8B%E4%B8%80%E8%A6%BD%20(9).png",
                     action=MessageTemplateAction(
                         label="租屋陷阱",
                         text="查看租屋陷阱"
