@@ -8,9 +8,9 @@ def test():
             columns=[
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/uKYgfVs.jpg",
-                    action=URITemplateAction(
-                        label="新鮮水果",
-                        uri="http://img.juimg.com/tuku/yulantu/110709/222-110F91G31375.jpg"
+                    action=MessageTemplateAction(
+                        label="租屋陷阱",
+                        text="查看租屋陷阱"
                     )
                 ),
                 ImageCarouselColumn(
