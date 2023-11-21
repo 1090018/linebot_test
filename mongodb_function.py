@@ -3,7 +3,7 @@ import os
 
 # 要獲得mongodb網址，請至mongodb網站申請帳號進行資料庫建立，網址　https://www.mongodb.com/
 # 獲取的網址方法之範例如圖： https://i.imgur.com/HLCk99r.png
-client = pymongo.MongoClient(os.getenv('mongodb_url'))
+client = pymongo.MongoClient("mongodb+srv://Pighouse:Pighouse@pighouse.vgionxv.mongodb.net/?retryWrites=true&w=majority")
 
 #第一個db的建立
 db = client['MongoClient']
